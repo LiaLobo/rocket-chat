@@ -1,0 +1,30 @@
+.blog-header {
+    background-image: url('../../imagens/astro.jpg');
+    min-height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.blog-postagens {
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .blog-postagens>span{
+      margin-top:50px;
+      font-size: 30px;
+      font-weight: bold;
+  }

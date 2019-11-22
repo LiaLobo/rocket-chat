@@ -1,5 +1,5 @@
 import React from 'react'
-import { getMensagens } from '../../service/base'
+import { getMensagens } from '../../service/mensagens'
 import Mensagens from './Mensagem/index'
 
 import './styles.css'

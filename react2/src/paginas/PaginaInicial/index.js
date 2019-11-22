@@ -6,7 +6,10 @@ import Header from '../../componentes/Header'
 function PaginaInicial() {
     return (
         <main>
-            <Header />
+            <Header
+                classImg='home-header '
+                heading='A era da comunicação intergalática!'
+            />
         </main>
     )
 }
